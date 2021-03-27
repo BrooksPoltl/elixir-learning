@@ -1,6 +1,9 @@
 defmodule Cards do
-  # implicit return, auto returns last thing
-  def hello do
-    "hi there!"
+  def create_deck do
+    ["Ace", "Two", "Three"]
+  end
+
+  def shuffle(deck) do
+    Enum.shuffle deck
   end
 end
