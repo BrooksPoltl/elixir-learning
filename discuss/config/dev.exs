@@ -61,7 +61,8 @@ config :discuss, DiscussWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/discuss_web/(live|views)/.*(ex)$",
-      ~r"lib/discuss_web/templates/.*(eex)$"
+      ~r"lib/discuss_web/templates/.*(eex)$",
+      ~r"lib/discuss_web/*"
     ]
   ]
 
