@@ -6,6 +6,7 @@
     <strong>Title:</strong>
     <%= @topic.title %>
   </li>
+  <button>Ping!</button>
 
 </ul>
 
