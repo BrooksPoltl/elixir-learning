@@ -19,10 +19,6 @@ defmodule DiscussWeb.Router do
     resources "/", TopicController
   end
 
-  scope "/comments" do
-    resources "/", CommentController
-  end
-
   scope "/users" do
     resources "/", UserController
   end
